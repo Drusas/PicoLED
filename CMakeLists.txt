@@ -1,8 +1,8 @@
-# Pull in Pico SDK (must be before project)
-include(pico_sdk_import.cmake)
+# # Pull in Pico SDK (must be before project)
+# include(pico_sdk_import.cmake)
 
-# Initialise the Pico SDK
-pico_sdk_init()
+# # Initialise the Pico SDK
+# pico_sdk_init()
 
 # Add library cpp files
 add_library(PicoLed INTERFACE)
